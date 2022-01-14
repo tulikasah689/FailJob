@@ -27,11 +27,13 @@ public class Test {
 	    File f = new File("C:\\HealthCheck_try\\"+date);
 	    f.mkdir();*/
 	    
-	    
+		//C:\Program Files (x86)\Jenkins\workspace\test
 	    
 		FileWriter fw=new FileWriter("C:\\HealthCheck_try\\testout.html");    
         fw.write(report);    
         fw.close();
+        System.out.println("pass checking");
+        System.exit(0);
 				
 	}
 
