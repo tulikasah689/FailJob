@@ -34,6 +34,8 @@ public class Test {
         fw.close();
         System.out.println("fail checking");
         System.exit(1);
+
+		//for testing purpose added this line
 				
 	}
 
